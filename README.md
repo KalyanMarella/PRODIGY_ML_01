@@ -19,9 +19,9 @@ Stepwise regression is a systematic method for adding and removing variables in 
 ## Significance Testing
 Significance testing is used to determine whether the features included in the model are statistically significant predictors of the target variable (house prices). Common methods include:
 
-p-value: A measure of the probability that an observed difference could have occurred just by random chance. Typically, a p-value less than 0.05 is considered statistically significant.
-t-statistic: A ratio of the departure of the estimated value of a parameter from its hypothesized value to its standard error.
-By using these methods, we ensure that the features retained in the model are truly contributing to the prediction accuracy.
+- p-value: A measure of the probability that an observed difference could have occurred just by random chance. Typically, a p-value less than 0.05 is considered statistically significant.
+- t-statistic: A ratio of the departure of the estimated value of a parameter from its hypothesized value to its standard error.
+- By using these methods, we ensure that the features retained in the model are truly contributing to the prediction accuracy.
 
 ## Project Features
 The project includes several key features and steps:
@@ -34,7 +34,7 @@ Feature Selection: Implement stepwise regression to identify the most significan
 
 Model Building: Develop the predictive model using the selected features. Common algorithms used might include linear regression, decision trees, or more advanced machine learning models.
 
-Model Evaluation: Assess the model's performance using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²).
+Model Evaluation: Assess the model's performance using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²),The model achieved an R² score of 0.83, indicating a high level of accuracy in predicting house prices..
 
 Model Tuning: Fine-tune the model parameters to improve accuracy and reliability.
 
